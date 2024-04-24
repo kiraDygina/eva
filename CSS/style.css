@@ -1,0 +1,35 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.question{
+    font-size: 100px;
+}
+.answers{
+    display: flex;
+}
+.answer{
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border: 2px orange solid;
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+}
+body{
+    font-family: Edu NSW ACT Foundation;
+    background-image: url(https://i.pinimg.com/564x/6e/fe/84/6efe84393f2f34fdc63574315e94a0dd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
